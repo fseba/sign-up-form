@@ -1,0 +1,134 @@
+@font-face {
+  font-family: norse-bold;
+  src: url(Norse-Bold.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.imgContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url('./images/background.jpg') ;
+  background-size: cover;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.imgContainer > footer,
+.imgContainer > footer > a {
+  margin-top: auto;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.imgContainer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  margin-top: 25vh;
+  padding: 1rem;
+}
+
+.imgContainer-logo > img {
+  width: 6rem;
+}
+
+.imgContainer-logo > span {
+  font-family: norse-bold, sans-serif;
+  font-size: 7rem;
+  padding-top: 1.75rem;
+}
+
+.formContainer {
+  width: 63vw;
+}
+
+p, 
+.formContainer-actionCall {
+  font-size: 1.5rem;
+  margin: 1.5rem 0 2rem 2rem;
+  width: 46vw;
+}
+
+.formContainer-actionCall {
+  box-shadow: 0 -1px 4px -4px;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.formContainer > form {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.2);
+}
+
+.formContainer > div > button[type="submit"] {
+  width: 12rem;
+  height: 3rem;
+  margin: 2rem 2rem 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #596D48;
+  border-radius: 5px;
+  background-color: #596D48;
+  color: white;
+  box-shadow: 4px 4px 4px -2px rgba(0, 0, 0, 0.2);
+}
+
+.formContainer > div > button[type="submit"]:active {
+  transform: scale(0.99);
+  }
+
+.formContainer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.formContainer-inputField {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem 2rem;
+}
+
+.formContainer-inputField > label {
+  font-size: 0.9rem;
+}
+
+.formContainer-inputField > input {
+  width: max(14rem, 15vw);
+  height: 2rem;
+  border: 1px solid #E5E7EB;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding-inline-start: 5px;
+}
+
+.formContainer-inputField > input:focus {
+  outline: none;
+  border: 1px solid blue;
+  box-shadow: 4px 4px 4px -2px rgba(0, 0, 0, 0.2);
+}
+
+.formContainer-loginLink {
+  font-size: 1rem;
+}
+
+.formContainer-loginLink > a {
+  text-decoration: none;
+  color: #596D48;
+  font-weight: 600;
+}
