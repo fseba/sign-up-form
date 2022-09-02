@@ -132,3 +132,16 @@ p,
   color: #596D48;
   font-weight: 600;
 }
+
+input[type="password"].match {
+  border: 2px solid #596D48; 
+}
+
+input[type="password"].noMatch {
+  border: 2px solid red;
+}
+
+.formContainer-inputField > .formContainer-passwordErrorMessage {
+  color: red;
+  font-size: 0.8rem;
+}
