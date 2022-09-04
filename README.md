@@ -10,4 +10,8 @@ What I learned from this project:
 - create custom error messages
 - form validation with JS
 
+Preview: 
+<img width="1791" alt="screenshot sign-up-form" src="https://user-images.githubusercontent.com/94076238/188305908-3b5bcf26-5142-437a-b329-35e5d4bcc528.png">
+
 Many thanks for reading and have a nice time 🙂
+
