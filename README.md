@@ -1,7 +1,7 @@
 # sign-up-form
 Oding Project - Intermediate HTML and CSS Course
 ---
-[Link to the lesson](https://www.theodinproject.com/lessons/foundations-calculator) 
+[Link to the lesson](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form) 
 
 Hi there!
 
